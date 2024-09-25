@@ -1,0 +1,123 @@
+:root{
+  --red: #d01c28;
+  --gray: #2e2e2e;
+  --black: #000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  padding: 55px;
+}
+
+ul.menu{
+  display: flex;
+  gap: 40px;
+  font-weight: 600;
+}
+
+ul.menu li a{
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.logo img{
+  width: 100px;
+  height: 60px;
+}
+
+button.login-btn{
+  background: var(--red);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.2;
+  color: var(--black);
+}
+
+.Hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+  height: 78vh;
+}
+
+.Hero-content{
+  max-width: 600px;
+  margin-left: 100px;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  
+}
+
+.Hero p{
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--gray);
+  margin-top: 20px;
+}
+
+.Hero-btn{
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+button.shop-now{
+  background-color: var(--red);
+  color: white;
+  padding: 12px 32px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button.secondary-btn{
+  background: transparent;
+  color: var(--gray);
+  padding: 12px 32px;
+  border: 2px solid var(--gray);
+  cursor: pointer;
+}
+
+.Hero-icons{
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.Hero-shoe img{
+  width: 550px;
+  height: auto;
+}
+
+.Shop{
+  font-weight: 600;
+  margin-top: 20px;
+}
+.Hero-content{
+  display: flex;
+  flex-direction: column;
+  
+}
